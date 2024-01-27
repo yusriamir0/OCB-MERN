@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    max-width: 1200px;
+    height: 56px;
+    padding: 20px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 24px auto 26px;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 0.96;
+    background: #2a2c2e;
+}
+
+.header_text {
+    padding: 20px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    text-wrap: nowrap;
+}
+
+header div a {
+    display: flex;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.right button {
+    display: flex;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    background: #f4ce47;
+    cursor: pointer;
+}
+.right button:active {
+    background-color: rgb(177, 141, 24);
+}
+
+.banner {
+    text-wrap: nowrap;
+    background: #f4ce47;
+}
+.text_container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 12px;
+    font-size: 48px;
+    overflow: hidden;
+}
+
+main {
+    background: #2a2c2e;
+    margin: 28px auto 0px;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.row_one,
+.row_two,
+.row_three {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    display: flex;
+    width: 294px;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info-book {
+    display: flex;
+    flex-direction: column;
+    height: 164px;
+    justify-content: space-between;
+}
+.name-book {
+    display: flex;
+    flex-direction: column;
+}
+.header_text a:hover,
+.icon a :hover {
+    color: #f4d867;
+}
+
+.author-book {
+    font-size: 14px;
+    line-height: 20px;
+    color: #00000099;
+}
+
+.title-book {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000de;
+}
+
+.stats-book {
+    display: flex;
+    gap: 8px;
+}
+
+.comment-book {
+    width: 58px;
+    height: 32px;
+    border: 1px solid #000000de;
+    border-radius: 16px;
+}
+.rate-book {
+    width: 96px;
+    height: 32px;
+    border: 1px solid #000000de;
+    border-radius: 16px;
+}
+
+.comment-book,
+.rate-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.comment-book:hover,
+.rate-book:hover {
+    background: #f4d867;
+    cursor: pointer;
+}
+
+.price-book {
+    display: flex;
+    gap: 8px;
+}
+
+.price-book .discount-price {
+    text-decoration: line-through;
+    color: #00000061;
+}
+
+.upper-footer {
+    display: flex;
+    max-width: 1246px;
+    height: 56px;
+    padding: 20px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 24px auto 0px;
+    background: #2a2c2e;
+}
+
+.social-media .icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-footer {
+    display: flex;
+    max-width: 1246px;
+    height: 40px;
+    padding: 12px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0px auto 0px;
+    background: #000000de;
+}
+.left-footer,
+.right-footer {
+    display: flex;
+    gap: 16px;
+    text-wrap: nowrap;
+}
+
+.left-footer a,
+.right-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 990px) {
+    header {
+        flex-direction: column;
+        margin: 0px auto 22px;
+        padding: 36px auto 55px;
+        height: auto;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    header,
+    .header_text {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 690px) {
+    .bottom-footer {
+        flex-direction: column;
+        gap: 16px;
+        padding: 12px 24px;
+    }
+}
