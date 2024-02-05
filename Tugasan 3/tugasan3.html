@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/97be1b0970.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Tugasan 3 - Book Registry (Form and Input)</title>
+        <link rel="stylesheet" href="tugasan3.css" />
+    </head>
+    <body>
+        <header><img src="/assets/logo.svg" alt="" /></header>
+        <main>
+            <h1>REGISTER YOUR BOOK</h1>
+            <form method="post" action="dummy-backend.html">
+                <div id="lineBreak">
+                    <label id="details" for="">Book Details</label>
+                    <div id="longLine"></div>
+                </div>
+                <div class="title">
+                    <label for="">Title</label>
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp"
+                        autofocus
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="">Genre</label>
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Your book genre here. E.g. Fantasy"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="">Author</label>
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        required
+                        placeholder="Your book author here. E.g. J. K. Rowling"
+                    />
+                </div>
+                <div>
+                    <label for="">Publisher</label>
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        required
+                        placeholder="Publisher of the book. E.g. Pustaka Melang"
+                    />
+                </div>
+                <div>
+                    <label for="">Year Published</label>
+                    <input
+                        type="number"
+                        min="1"
+                        max="2100"
+                        name=""
+                        id=""
+                        required
+                        placeholder="1994"
+                        maxlength="4"
+                    />
+                </div>
+                <div class="availability">
+                    <label for="">Availability</label>
+                    <div class="checkmark">
+                        <div class="checkmark-input">
+                            <input
+                                type="radio"
+                                name="checkmark"
+                                id=""
+                                checked="checked"
+                            />
+                            <label class="custom-btn" for="online">
+                                Online
+                            </label>
+                        </div>
+                        <div class="checkmark-input">
+                            <input type="radio" name="checkmark" id="" />
+                            <label class="custom-btn" for="in-store">
+                                In Store
+                            </label>
+                        </div>
+                        <div class="checkmark-input">
+                            <input type="radio" name="checkmark" id="" />
+                            <label class="custom-btn" for="online-in-store">
+                                Online & In Store</label
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="">Pages</label>
+                    <input
+                        required
+                        type="number"
+                        min="1"
+                        max="10000"
+                        name=""
+                        id=""
+                        placeholder="514"
+                    />
+                </div>
+                <div>
+                    <label for="">Language</label>
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Language used in the book. E.g. English"
+                        required
+                    />
+                </div>
+                <div id="lineBreak">
+                    <label id="details" for="">Registree Details</label>
+                    <div id="longLine"></div>
+                </div>
+                <div>
+                    <label for="">Name</label>
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Your name. E.g. Lannah Yeon"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input
+                        type="email"
+                        name=""
+                        required
+                        autocomplete="off"
+                        id=""
+                        placeholder="Your email. E.g. l.yeon@email.com"
+                    />
+                </div>
+                <section
+                    style="
+                        display: flex;
+                        align-items: center;
+                        text-wrap: nowrap;
+                        gap: 20px;
+                    "
+                >
+                    <div>
+                        <input
+                            style="width: 22px; height: 22px"
+                            type="checkbox"
+                            name=""
+                            required
+                            id=""
+                        />
+                    </div>
+                    <label>
+                        I hereby agree to follow all rules and confirmed that
+                        all details are accurate
+                    </label>
+                </section>
+                <div><button>SAVE YOUR BOOK</button></div>
+            </form>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <img src="assets/logo.svg" alt="" />
+                <div class="social-media">
+                    <div class="icon">
+                        <a href=""
+                            ><i
+                                class="fa-brands fa-instagram"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                        <a href=""
+                            ><i
+                                class="fa-brands fa-facebook"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                        <a href=""
+                            ><i
+                                class="fa-brands fa-twitter"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="left-footer">
+                    <a href="#">Terms and conditions</a>
+                    <a href="#">Privay policy</a>
+                </div>
+                <div class="right-footer">
+                    <a href="#">+44 1332 412251</a>
+                    <a href="#">support@bbookshelf.com</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
