@@ -74,9 +74,9 @@ header div a {
     display: flex;
     justify-content: center;
     gap: 24px;
+    overflow: hidden;
     padding: 12px;
     font-size: 48px;
-    overflow: hidden;
 }
 
 main {

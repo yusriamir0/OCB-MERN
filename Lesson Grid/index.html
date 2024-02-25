@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        * {
+            background-color: burlywood;
+            color: black;
+            box-sizing: border-box;
+        }
+
+        body {
+            border: 5px solid white;
+        }
+        .container {
+            display: grid;
+            height: 600px;
+            border: 3px solid green;
+            grid-template-rows: repeat(4, 100px);
+            grid-template-columns: repeat(auto-fit, minmax(100px, 4fr));
+        }
+
+        body div div {
+            border: 2px solid blue;
+            background-color: red;
+        }
+    </style>
+    <body>
+        <div class="container" style="text-wrap: wrap">
+            <div class="item1">item1</div>
+            <div class="item2">item2</div>
+            <div class="item3">item3</div>
+            <div class="item4">item4</div>
+        </div>
+    </body>
+</html>
