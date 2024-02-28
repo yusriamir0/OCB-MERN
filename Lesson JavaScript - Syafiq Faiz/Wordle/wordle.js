@@ -1,13 +1,15 @@
+// play throught this website https://wordleunlimited.org/
+
 // get list of all 5 letter words
 const allWords = require("./words"); // ! JANGAN UBAH
 // has these letters
-const hasLetters = ["r", "a", "p"];
+const hasLetters = ["a", , , ,];
 // must not has these letters
-const mustNotHaveLetters = ["e", "d", ""];
+const mustNotHaveLetters = ["r", "e", "n"];
 // must have selected letters in these positions
-const mustHaveLettersInPosition = [, , "a", ,];
+const mustHaveLettersInPosition = ["c", "a", , "d", "y"];
 // not in these positions
-const mustNotHaveLettersInPosition = ["r", "r", "p"];
+const mustNotHaveLettersInPosition = [[, , "a", ,]];
 
 const containsLetter = (word, letter) => {
     return word.includes(letter);
