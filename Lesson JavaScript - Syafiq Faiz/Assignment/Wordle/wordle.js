@@ -1,4 +1,4 @@
-// play throught this website https://wordleunlimited.org/
+// play through this website https://wordleunlimited.org/
 
 // get list of all 5 letter words
 const allWords = require("./words"); // ! JANGAN UBAH
