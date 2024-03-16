@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "color": "^4.2.3"
+  },
+  "devDependencies": {
+    "install": "^0.13.0"
+  }
+}
