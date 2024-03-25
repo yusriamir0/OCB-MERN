@@ -1,5 +1,5 @@
--- TIL
--- 
+-- ! TIL
+--
 -- SHOW DATABASE
 -- CREATE DATABASE ...
 -- DROP DATABASE ...
@@ -13,3 +13,16 @@
 -- SHOW TABLES
 -- SHOW COLUMNS FROM NAMA-TABLE
 -- DESC NAMA-TABLE
+--
+-- ! TIL
+--
+-- VARCHAR()
+-- INT
+-- DECIMAL
+-- CHAR()
+-- DATE
+-- TIME
+-- ? INSERT INTO NAMA_TABLE (...,..., N)
+-- ? VALUES (...,...) (...,...) (x,y,N)
+-- SELECT PROPERTY1, PROPERTY2, PROPERTY3, ...N FROM TABLE
+
