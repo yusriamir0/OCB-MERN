@@ -1,3 +1,20 @@
+-- ! SQLZoo
+-- 1) SELECT column_name FROM table_name
+-- WHERE column_name = 'item_name'
+-- 2) SELECT column_name1, column_name2 FROM table_name
+-- WHERE column_name IN(column_name1, column_name2)
+-- 3) SELECT column_name1, column_name2 FROM table_name WHERE column_name2 BETWEEN X AND Y
+-- 4)  SELECT column_name1, column_name2
+--       FROM table_name
+--       WHERE column_name1 LIKE "inquiry_string%"
+-- 5) SELECT column_name1, length(column_name1)
+-- FROM table_name
+-- WHERE length(table_name) > x_number
+-- 6) SELECT ROUND(column_name, round_number atau -round_number)
+-- 7) SELECT column_name1, column_name2
+-- FROM table_name
+-- WHERE LENGTH(column_name1) = LENGTH(column_name2)
+
 -- ! TIL
 --
 -- SHOW DATABASE
@@ -25,4 +42,3 @@
 -- ? INSERT INTO NAMA_TABLE (...,..., N)
 -- ? VALUES (...,...) (...,...) (x,y,N)
 -- SELECT PROPERTY1, PROPERTY2, PROPERTY3, ...N FROM TABLE
-
