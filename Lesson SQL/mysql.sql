@@ -35,6 +35,8 @@
 -- WHERE condition (operator) ( SELECT column1, column2, ...
 -- FROM table_name;
 -- WHERE condition )
+-- 15) SELECT MIN atau MAX(column_name)
+-- FROM table_name WHERE condition;
 --
 -- ! TIL
 --
