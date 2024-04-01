@@ -29,6 +29,11 @@
 -- WHERE condition;
 -- 13) SELECT DISTINCT column1, column2, ...
 -- FROM table_name;
+-- 14) SELECT column1, column2, ...
+-- FROM table_name;
+-- WHERE condition (operator) ( SELECT column1, column2, ...
+-- FROM table_name;
+-- WHERE condition )
 --
 -- ! TIL
 --
