@@ -23,6 +23,7 @@
 -- WHERE column_name NOT IN ('item_name1', 'item_name2')
 -- 11) SELECT column_name1, column_name2
 -- FROM table_name
+-- WHERE column_name1, column_name2
 -- ORDER BY column_name1 DESC, column_name2
 -- 12) SELECT COUNT(column_name)
 -- FROM table_name
